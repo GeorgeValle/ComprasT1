@@ -53,7 +53,7 @@ namespace ComprasT1
                 Session.Remove("tipoDeUsuario");
                 Session.Remove("Carrito");
                 // Redirigir a Registro.aspx
-                Response.Redirect("Registro.aspx");
+                Response.Redirect("Login.aspx");
             }
             // Forzar actualización del UpdatePanel
             UpdatePanelTimer.Update();
